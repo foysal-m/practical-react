@@ -1,7 +1,11 @@
-import './App.css'
+import IdleTimerContainer from './IdleTimerContainer'
 
 function App() {
-  return <div className="App"></div>
+  return (
+    <div className="App">
+      <IdleTimerContainer></IdleTimerContainer>
+    </div>
+  )
 }
 
 export default App
